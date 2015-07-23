@@ -1,6 +1,6 @@
 {
   "name": "traktor-dpro-adapter-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Philipp Burgmer",
   "description": "NodeJS based Command Line Tool to synchronize D-Pro's Tempo with Traktor's Tempo",
 
