@@ -1,0 +1,19 @@
+{
+  "name": "traktor-dpro-adapter-cli",
+  "version": "0.1.0",
+  "author": "Philipp Burgmer",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pburgmer/traktor-dpro-adapter-cli.git"
+  },
+
+  "dependencies": {
+    "traktor-dpro-adapter-lib": "0.1.1"
+  },
+
+  "main": "cli.js",
+  "scripts": {
+    "start": "node ./cli.js"
+  }
+}
