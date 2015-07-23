@@ -14,7 +14,9 @@
   },
 
   "main": "cli.js",
-  "bin": "./bin/traktor-dpro-adapter",
+  "bin": {
+    "traktor-dpro-adapter": "./bin/traktor-dpro-adapter"
+  },
   "scripts": {
     "start": "node ./cli.js"
   }
