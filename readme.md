@@ -17,9 +17,18 @@ The command line tool is for advanced users who know how to install all these pr
 
 
 ## Setup
+
 * Create a virtual MIDI Port on your host
 * Start Traktor and D-Pro
+* Tell Traktor to send MIDI Beat Clock messages (see [here](http://www.native-instruments.com/en/support/knowledge-base/show/750/how-to-send-a-midi-clock-sync-signal-in-traktor/))
 * Start the cli via ```traktor-dpro-adapter```in a terminal window
 * Open D-Pro Preferences, go to the MIDI tab and enable the virtual MIDI port
 * Go to the Remote Control tab in D-Pro Preferences and add a new mapping for *Show Control: SET TEMPO (60-187 BPM)*
 * To learn the Mapping choose *Traktor Virtual Output* and the virtual MIDI port in the traktor-dpro-adapter terminal window to answer the questions about inut and output port
+
+
+## Usage
+
+* Always start Traktor first, otherwise the adapter can not find the virtual MIDI port
+* Start D-Pro
+* Start the adapter and select MIDI ports
